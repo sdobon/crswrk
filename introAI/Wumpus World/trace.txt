@@ -1,0 +1,412 @@
+Initializing your new Wumpus world!
+Your new world is called: Wumpus2859
+There is a Wumpus in cell Cell 13.
+There is Gold in cell Cell 32.
+There is a Pit in cell Cell 31.
+There is a Pit in cell Cell 33.
+There is a Pit in cell Cell 44.
+
+You are starting in Cell 11, looking to the Right.
+You are starting with 0 points, 1 arrow(s).
+You have 5 rocks.
+You are alive.
+
+*********************************
+
+Turing to face Up
+Perception = (clean, calm, bare, no_bump, quiet, Cell 11, Up, living, 0)
+4 facts in KB
+10 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 12
+
+*********************************
+
+Turing to face Up
+Perception = (clean, calm, bare, no_bump, quiet, Cell 11, Up, living, 0)
+
+*********************************
+
+Taking a step
+Moving to Cell 12
+There is a nasty smell in here
+Perception = (nasty, calm, bare, no_bump, quiet, Cell 12, Up, living, 0)
+15 facts in KB
+18 facts in KB
+
+*********************************
+Trying to step back to Cell 11
+
+*********************************
+
+Turing to face Down
+There is a nasty smell in here
+Perception = (nasty, calm, bare, no_bump, quiet, Cell 12, Down, living, 0)
+
+*********************************
+
+Taking a step
+Moving to Cell 11
+Perception = (clean, calm, bare, no_bump, quiet, Cell 11, Down, living, 0)
+18 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 21
+
+*********************************
+
+Turing to face Right
+Perception = (clean, calm, bare, no_bump, quiet, Cell 11, Right, living, 0)
+
+*********************************
+
+Taking a step
+Moving to Cell 21
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 21, Right, living, 0)
+23 facts in KB
+28 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 22
+
+*********************************
+
+Turing to face Up
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 21, Up, living, 0)
+
+*********************************
+
+Taking a step
+Moving to Cell 22
+Perception = (clean, calm, bare, no_bump, quiet, Cell 22, Up, living, 0)
+34 facts in KB
+40 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 23
+
+*********************************
+
+Turing to face Up
+Perception = (clean, calm, bare, no_bump, quiet, Cell 22, Up, living, 0)
+
+*********************************
+
+Taking a step
+Moving to Cell 23
+There is a breeze running through this room
+There is a nasty smell in here
+Perception = (nasty, breeze, bare, no_bump, quiet, Cell 23, Up, living, 0)
+46 facts in KB
+47 facts in KB
+
+*********************************
+
+Turing to face Left
+There is a breeze running through this room
+There is a nasty smell in here
+Perception = (nasty, breeze, bare, no_bump, quiet, Cell 23, Left, living, 0)
+
+*********************************
+
+Trying to shoot the Wumpus
+You killed the Wumpus!
+You get 100 more points!
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 23, Left, living, 100)
+removing fact['nasty', u'Cell 12']
+removing fact['nasty', u'Cell 23']
+removing fact['wumpus', u'Cell 13']
+45 facts in KB
+49 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 13
+
+*********************************
+
+Turing to face Left
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 23, Left, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 13
+Perception = (clean, calm, bare, no_bump, quiet, Cell 13, Left, living, 100)
+54 facts in KB
+57 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 14
+
+*********************************
+
+Turing to face Up
+Perception = (clean, calm, bare, no_bump, quiet, Cell 13, Up, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 14
+Perception = (clean, calm, bare, no_bump, quiet, Cell 14, Up, living, 100)
+61 facts in KB
+63 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 24
+
+*********************************
+
+Turing to face Right
+Perception = (clean, calm, bare, no_bump, quiet, Cell 14, Right, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 24
+Perception = (clean, calm, bare, no_bump, quiet, Cell 24, Right, living, 100)
+68 facts in KB
+71 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 34
+
+*********************************
+
+Turing to face Right
+Perception = (clean, calm, bare, no_bump, quiet, Cell 24, Right, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 34
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 34, Right, living, 100)
+76 facts in KB
+80 facts in KB
+trying rock
+found a guess
+
+*********************************
+
+Turing to face Right
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 34, Right, living, 100)
+
+*********************************
+
+Tossing a rock. You have 4 left.
+
+*********************************
+Trying to revisit Cell 24
+
+*********************************
+
+Turing to face Left
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 34, Left, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 24
+Perception = (clean, calm, bare, no_bump, quiet, Cell 24, Left, living, 100)
+80 facts in KB
+81 facts in KB
+
+*********************************
+Trying to revisit Cell 23
+
+*********************************
+
+Turing to face Down
+Perception = (clean, calm, bare, no_bump, quiet, Cell 24, Down, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 23
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 23, Down, living, 100)
+81 facts in KB
+trying rock
+
+*********************************
+Trying to revisit Cell 22
+
+*********************************
+
+Turing to face Down
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 23, Down, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 22
+Perception = (clean, calm, bare, no_bump, quiet, Cell 22, Down, living, 100)
+80 facts in KB
+81 facts in KB
+
+*********************************
+Trying unvisited cell: Cell 32
+
+*********************************
+
+Turing to face Right
+Perception = (clean, calm, bare, no_bump, quiet, Cell 22, Right, living, 100)
+
+*********************************
+
+Taking a step
+Moving to Cell 32
+There is a lovely glitter in the room
+There is a breeze running through this room
+Perception = (clean, breeze, glitter, no_bump, quiet, Cell 32, Right, living, 100)
+[u'Cell 12', u'Cell 11', u'Cell 21', u'Cell 13', u'Cell 14', u'Cell 34', u'Cell 24', u'Cell 23', u'Cell 22']
+87 facts in KB
+91 facts in KB
+
+*********************************
+
+Trying to pick up gold
+You've picked up some gold!
+You get 1000 more points!
+There is a lovely glitter in the room
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 32, Right, living, 100)
+
+*********************************
+
+Turing to face Left
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 32, Left, living, 1100)
+
+*********************************
+
+Taking a step
+Moving to Cell 22
+Perception = (clean, calm, bare, no_bump, quiet, Cell 22, Left, living, 1100)
+
+*********************************
+
+Turing to face Down
+Perception = (clean, calm, bare, no_bump, quiet, Cell 22, Down, living, 1100)
+
+*********************************
+
+Taking a step
+Moving to Cell 21
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 21, Down, living, 1100)
+
+*********************************
+
+Turing to face Left
+There is a breeze running through this room
+Perception = (clean, breeze, bare, no_bump, quiet, Cell 21, Left, living, 1100)
+
+*********************************
+
+Taking a step
+Moving to Cell 11
+Perception = (clean, calm, bare, no_bump, quiet, Cell 11, Left, living, 1100)
+
+*********************************
+
+Perception = (clean, calm, bare, no_bump, quiet, Cell 11, Left, won, 1100)
+['clean', u'Cell 11']
+['calm', u'Cell 11']
+['adjacent', u'Cell 11', u'Cell 12']
+['adjacent', u'Cell 11', u'Cell 21']
+['solid', u'Cell 12']
+['solid', u'Cell 21']
+['uninhabited', u'Cell 12']
+['uninhabited', u'Cell 21']
+['safe', u'Cell 12']
+['safe', u'Cell 21']
+['calm', u'Cell 12']
+['adjacent', u'Cell 12', u'Cell 13']
+['adjacent', u'Cell 12', u'Cell 11']
+['adjacent', u'Cell 12', u'Cell 22']
+['solid', u'Cell 13']
+['solid', u'Cell 11']
+['solid', u'Cell 22']
+['clean', u'Cell 21']
+['breeze', u'Cell 21']
+['adjacent', u'Cell 21', u'Cell 22']
+['adjacent', u'Cell 21', u'Cell 31']
+['adjacent', u'Cell 21', u'Cell 11']
+['uninhabited', u'Cell 22']
+['uninhabited', u'Cell 31']
+['uninhabited', u'Cell 11']
+['safe', u'Cell 11']
+['safe', u'Cell 22']
+['clean', u'Cell 22']
+['calm', u'Cell 22']
+['adjacent', u'Cell 22', u'Cell 23']
+['adjacent', u'Cell 22', u'Cell 21']
+['adjacent', u'Cell 22', u'Cell 32']
+['adjacent', u'Cell 22', u'Cell 12']
+['solid', u'Cell 23']
+['solid', u'Cell 32']
+['uninhabited', u'Cell 23']
+['uninhabited', u'Cell 32']
+['safe', u'Cell 23']
+['safe', u'Cell 32']
+['breeze', u'Cell 23']
+['adjacent', u'Cell 23', u'Cell 24']
+['adjacent', u'Cell 23', u'Cell 22']
+['adjacent', u'Cell 23', u'Cell 33']
+['adjacent', u'Cell 23', u'Cell 13']
+['clean', u'Cell 23']
+['uninhabited', u'Cell 24']
+['uninhabited', u'Cell 33']
+['uninhabited', u'Cell 13']
+['safe', u'Cell 13']
+['clean', u'Cell 13']
+['calm', u'Cell 13']
+['adjacent', u'Cell 13', u'Cell 14']
+['adjacent', u'Cell 13', u'Cell 12']
+['adjacent', u'Cell 13', u'Cell 23']
+['solid', u'Cell 14']
+['uninhabited', u'Cell 14']
+['safe', u'Cell 14']
+['clean', u'Cell 14']
+['calm', u'Cell 14']
+['adjacent', u'Cell 14', u'Cell 13']
+['adjacent', u'Cell 14', u'Cell 24']
+['solid', u'Cell 24']
+['safe', u'Cell 24']
+['clean', u'Cell 24']
+['calm', u'Cell 24']
+['adjacent', u'Cell 24', u'Cell 23']
+['adjacent', u'Cell 24', u'Cell 34']
+['adjacent', u'Cell 24', u'Cell 14']
+['solid', u'Cell 34']
+['uninhabited', u'Cell 34']
+['safe', u'Cell 34']
+['clean', u'Cell 34']
+['breeze', u'Cell 34']
+['adjacent', u'Cell 34', u'Cell 33']
+['adjacent', u'Cell 34', u'Cell 44']
+['adjacent', u'Cell 34', u'Cell 24']
+['uninhabited', u'Cell 44']
+['pit', u'Cell 33']
+['pit', u'Cell 44']
+['try_rock', u'Cell 34']
+['try_rock', u'Cell 23']
+['clean', u'Cell 32']
+['breeze', u'Cell 32']
+['adjacent', u'Cell 32', u'Cell 33']
+['adjacent', u'Cell 32', u'Cell 31']
+['adjacent', u'Cell 32', u'Cell 42']
+['adjacent', u'Cell 32', u'Cell 22']
+['uninhabited', u'Cell 42']
+['pit', u'Cell 31']
+['try_rock', u'Cell 21']
+['try_rock', u'Cell 32']

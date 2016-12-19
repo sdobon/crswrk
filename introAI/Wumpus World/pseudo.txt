@@ -1,0 +1,83 @@
+for each action,
+
+  get perceptions
+  analyze perceptions
+  see if we can add new facts about the world
+  look at all adjacent cells
+  move to the first one that is safe
+
+
+
+
+Vladislav Karyukin 2 hours ago When you are in a cell, you need to check adjacent cells whether they are "next" and "safe". Then you need to a function to turn your face like this. After it you can use the function take_action in the updatewumpus file
+
+def face_to(to_cell):
+    cur_cell = perceptions[5]
+    # `Cell 12` and `Cell 11`
+    if cur_cell[5] == to_cell[5]:
+        return 'Up' if to_cell[6] > cur_cell[6] else 'Down'
+    elif cur_cell[6] == to_cell[6]:
+        return 'Right' if to_cell[5] > cur_cell[5] else 'Left'
+    return None
+
+Checking whether the next cell is safe and moving to it
+
+    elif has_unvisited_safe_cell():
+        # move towards the unvisited safe cell step by step
+        next_cell = next_cell_to_unvisited_safe_cell()
+        move_cells.append(next_cell)
+        face = face_to(next_cell)
+        wumpus.take_action(world, face)
+        perceptions = wumpus.take_action(world, 'Step')
+
+[['clean', u'Cell 11'],
+['calm', u'Cell 11'],
+['adjacent', u'Cell 11', u'Cell 12'],
+['adjacent', u'Cell 11', u'Cell 21'],
+['solid', u'Cell 12'],
+['solid', u'Cell 21'],
+['uninhabited', u'Cell 12'],
+['uninhabited', u'Cell 21'],
+['safe', u'Cell 12'],
+['safe', u'Cell 21'], [
+'nasty', u'Cell 12'],
+['calm', u'Cell 12'],
+['adjacent', u'Cell 12', u'Cell 13'],
+['adjacent', u'Cell 12', u'Cell 11'],
+['adjacent', u'Cell 12', u'Cell 22'],
+['solid', u'Cell 13'],
+['solid', u'Cell 11'], [
+'solid', u'Cell 22'],
+['wumpus', u'Cell 13'],
+['wumpus', u'Cell 11'],
+['wumpus', u'Cell 22'],
+['clean', u'Cell 21'],
+['breeze', u'Cell 21'],
+ ['adjacent', u'Cell 21', u'Cell 22'],
+ ['adjacent', u'Cell 21', u'Cell 31'],
+ ['adjacent', u'Cell 21', u'Cell 11'],
+ ['uninhabited', u'Cell 22'], [
+ 'uninhabited', u'Cell 31'],
+ ['uninhabited', u'Cell 11'],
+ ['safe', u'Cell 11'],
+ ['safe', u'Cell 22'],
+ ['clean', u'Cell 22'],
+ ['calm', u'Cell 22'],
+ ['adjacent', u'Cell 22', u'Cell 23'],
+ ['adjacent', u'Cell 22', u'Cell 21'],
+ ['adjacent', u'Cell 22', u'Cell 32'],
+ ['adjacent', u'Cell 22', u'Cell 12'],
+ ['solid', u'Cell 23'],
+ ['solid', u'Cell 32'],
+ ['uninhabited', u'Cell 23'],
+ ['uninhabited', u'Cell 32'],
+ ['safe', u'Cell 23'],
+ ['safe', u'Cell 32'],
+ ['nasty', u'Cell 23'],
+ ['breeze', u'Cell 23'],
+ ['adjacent', u'Cell 23', u'Cell 24'],
+ ['adjacent', u'Cell 23', u'Cell 22'],
+ ['adjacent', u'Cell 23', u'Cell 33'],
+ ['adjacent', u'Cell 23', u'Cell 13'],
+ ['wumpus', u'Cell 24'],
+ ['wumpus', u'Cell 33']]

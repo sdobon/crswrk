@@ -1,0 +1,13 @@
+fact: (inst cube1 cube)
+fact: (inst cube2 cube)
+fact: (inst cube3 cube)
+fact: (inst cube4 cube)
+
+fact: (clear block1)
+
+fact: (covered block1)
+
+
+rule: ((inst ?x cube)) -> (flat ?x)
+rule: ((flat ?x) -> (surface ?x))
+rule: ((covered ?y)) -> ~(clear ?y)
