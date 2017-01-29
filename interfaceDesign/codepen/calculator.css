@@ -1,0 +1,29 @@
+#button-panel {
+  width: 170px;
+}
+
+#button-panel button {
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #999;
+  box-shadow: 1px 1px 2px #ccc;
+  margin: 1px;
+}
+
+#button-panel .wide {
+  width: 102px;
+}
+
+#display {
+  background-color: #ddffdd;
+  width: 140px;
+  height: 20px;
+  margin: 1px;
+  padding: 10px;
+  text-align: right;
+  line-height: 20px;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
