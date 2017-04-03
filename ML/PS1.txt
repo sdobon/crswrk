@@ -1,0 +1,28 @@
+1) Alcohol content. The peak of the good is biased towards low, and the peak of the bad is biased towards high,
+more so than any other attribute.
+
+2) 62.381%
+
+3) Alcohol, more alcoholic tends to be bad wine. yes it matches.
+
+4) Changes the estimation of how accurate the model is, checks for problems such as overfitting.  The
+difference was just the program realizing that it wasn't so accurate.  Cross validation is important to
+gain a more accurate estimation of how good your model is.
+
+5) weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1, 90.5%
+
+6) I quickly tried one from each category to see which category had the best performance, then tested
+some more from the best performing category to see which in that category had the best of the bunch.  Also
+"random forest" sounds kind of like a complex algorithm.
+
+7) I agree with this statement.  I think this is precisely the key way in which computers can outperform
+humans trying to solve the same problem.  The human brain has to use heuristics and then
+try to assign a reason/cause to something it sees.  Meanwhile, the computer can analyze thousands or even
+millions of training samples and find patterns that will produce high accuracy results, without
+ever knowing the reason why the input produces the output.
+
+8) Same general strategy as 7, scanned categories to find which categories produced both wide and
+narrow spread between the sets.  Then looked deeper into those categories to find very close and very
+large spreads. I found a solution that had about a 9% value of the equation.
+
+9) The wine output space was binary, where the cars had four quality rankings.
