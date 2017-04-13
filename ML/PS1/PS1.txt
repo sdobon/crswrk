@@ -5,7 +5,8 @@ more so than any other attribute.
 
 3) Alcohol, more alcoholic tends to be bad wine. yes it matches.
 
-4) Changes the estimation of how accurate the model is, checks for problems such as overfitting.  The
+4) Changes the estimation of how accurate the model is, checks for problems such as overfitting. Breaks
+the training set into 10 sets, trains on 9 and tests on 1. Repeat 10 times  The
 difference was just the program realizing that it wasn't so accurate.  Cross validation is important to
 gain a more accurate estimation of how good your model is.
 
